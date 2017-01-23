@@ -1,0 +1,19 @@
+---
+title: "Project_proposal"
+author: "Mona Rosenke"
+date: "1/22/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+
+  While I wanted to participate in the meta-science project, I also wanted to find a paper that is at least remotely relevant to my research area. The paper by Furl in 2016 fullfilled both those wishes. It is published in the 2016 Psychological Science edition, and it concerns face perception. I am a student in Kalanit's lab, which means I am mostly looking at high level visual cortex, and category-selective regions as faces, objects, bodies and places. This paper uses face perception as a tool for behavioral attractiveness and averageness ratings using a divisive normalization. Two things about this paper interest me: (1) I have not conducted any behavioral experiment using face stimuli, only in the MRI scanner and (2) the idea of relative differences resulting different (attractiveness) ratings and how to model that. It is not so much the attractiveness factor that interests me, rather the idea that we seem to perform those judgements relative to the current situation we/the other persion are/is in. I would like to replicate experiment one,the attractiveness ratings. The author reports the more unattractive the distractor, the greater the distinction between two visually presented target faces.
+  
+  The stimuli that were used for this experiment are online available (http://www.emotionlab.se/resources/kdef). My idea is to generate the same rating test as performed in the original experiment and running a web-based replication. I would like to contact the author to learn whether he had a specific way for the subset of stimuli he used. The Karolinska Directed Emotional Faces (KDEF) stimuli set has 70 individuals, while only 30 were used for the experiment (15 female). If there was no specific way of selecting the stimuli, I would use a random selection of 15 males and 15 females to keep the gender balance as in the original experiment.
+  
+  I see two challenges for me while doing this replication experiment: (1) I have never generated an online (and) behavioral experiment before, but I have worked with JavaScript in the past. (2) I have not used larger statistical models for these kinds of data a lot.
